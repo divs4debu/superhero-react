@@ -10,7 +10,7 @@ export default class SuperHero extends Component {
     render() {
         return (
             <View>
-                <Home color = '#ababab'/>
+                <Home color = '#9C27B0'/>
             </View>
         );
     }
