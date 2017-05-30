@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import {View, StatusBar, ToolbarAndroid, StyleSheet, Text, DrawerLayoutAndroid, TouchableHighlight} from 'react-native';
+import {View, StatusBar, ToolbarAndroid, StyleSheet, Text} from 'react-native';
 import primaryDark from "../../libs/Utils/Color/primaryDark";
 
 const Home = class Home extends Component {
@@ -21,13 +21,13 @@ const Home = class Home extends Component {
                     titleColor='white'
                 />
             </View>
-        )
+        );
     }
 };
 
 const styles = StyleSheet.create({
     toolbar: {
-        height: 56,
+        height: 50,
     },
 });
 export default Home;
